@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>covid-portal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <!-- poppins Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- CSS FILES -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light badge-secondary sticky-top">
+              
+    </nav>
+    <div class="container-fluid">
+        <div class="col-12">
+            <div class="row">   
+                <div class="col-">
+                    <div class="right_sidebar pt-3">
+                        <form>
+                            <div class="from-group form-check">
+                                <input class="form-check-input" type="checkbox" value="" checked />
+                                <label class="form-check-label"> SELECT STATES </label>
+                            </div>
+                            <!-- //all state checkbox section -->
+                            <div class="all_state_section p-4">
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="col-9 p-3">
+                    <div class="col-12">
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                            <div class="col">
+                                <div class="card mb-2">
+                                    <div class="card-header text-success font-weight-bold text-center">SELECTED
+                                        STATES
+                                    </div>
+                                    <div class="card-body text-success">
+                                        <h3 class="card-title text-center" id="selected_state_count">?
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mb-2">
+                                    <div class="card-header text-success font-weight-bold text-center">TESTED
+                                    </div>
+                                    <div class="card-body text-success">
+                                        <h3 class="card-title text-center" id="Tested_case_count">?
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mb-2">
+                                    <div class="card-header text-success font-weight-bold text-center">
+                                        CONFIRMED
+                                    </div>
+                                    <div class="card-body text-success">
+                                        <h3 class="card-title text-center" id="confirm_case_count">?
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mb-2">
+                                    <div class="card-header text-success font-weight-bold text-center">
+                                        RECOVERED
+                                    </div>
+                                    <div class="card-body text-success">
+                                        <h3 class="card-title text-center" id="recover_case_count">?
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- <div class="col-12">
+                        <div class="graph_heading p-3 text-success">
+                            <h3 class="text-center">
+                                Graphical Represenation
+                            </h3>
+                        </div>
+                        <div class="row justify-content-center pt-5">
+
+                            <div class="state__wise__graph">
+                                <div class="progress bg-success">
+                                    <div class="progress-done" data-done="100%">
+                                    
+                                    </div>
+                                
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div> -->
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="./JS/corona_portal.js"></script>
+</body>
+
+</html>
